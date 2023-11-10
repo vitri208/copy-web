@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #312f38;
+}
+nav{
+    width: 90%;
+    height: 60px;
+    margin: 20px 5%;
+    display: flex;
+    /* color: white; */
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+.nav-left img{
+    width: 60px;
+    margin-left: 40px;
+}
+.nav-middle{
+    width: 1000px;
+}
+.nav-right{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 10px;
+    margin-right: 40px;
+    font-weight: 600;
+}
+.nav-right .About, .Contact{
+    color: #312f38;
+}
+.nav-right .Home {
+    color: #d01d1d;
+}
+
+.page-one{
+    height: 90vh;
+}
+.page-one .text-1{
+    margin-top: 200px;
+    margin-left: 5%;
+    font-size: 25px;
+}
+.page-one h1{
+    color: #d01d1d;
+}
+.page-two{
+    margin-left: 5%;
+    display: flex;
+    height: 90vh;
+}
+.page-two .left-text h1{
+    color: #d01d1d;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.page-two .p-left{
+    margin-top: 10px;
+}
+.page-two .left-text p{
+    color: white;
+    font-size: 35px;
+    margin-top: 3px;
+}
+.page-three{
+    height: 90vh;
+}
+.page-three h1{
+    color: #d01d1d;
+    margin: 0px 350px;
+    font-size: 40px;
+}
+.page-three p{
+    color: white;
+}
+.page-four .heading h1{
+    color: #d01d1d;
+    font-size: 40px;
+    margin-left: 400px;
+}
+.page-four .heading .h2{
+    margin-left: 550px;
+}
+.page-four .picture{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.page-four .picture .rectangle{
+    margin: 50px;
+    width: 350px;
+    border-radius: 20px;
+    height: 400px;
+    background-color: gray;
+}
+.page-four .picture .rectangle img{
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+}
+.page-five{
+    height: 90vh;
+}
+.page-five .bar{
+    margin-top: 200px;
+    display: flex;
+}
+.page-five .bar .side-bar{
+    background-color: gray;
+}
+.page-five .bar .contact-bar{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.page-five .bar .contact-bar h1 {
+    margin-bottom: 30px;
+}
+.page-five .bar .contact-bar input{
+    border: 0;
+    outline: 0;
+}
+.page-five .bar .contact-bar hr{
+    margin: 3px;
+}
+.page-five .bar .contact-bar .send-message{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page-five .bar .contact-bar button{
+    width: 60px;
+    height: 30px;
+    margin: 15px;
+}
